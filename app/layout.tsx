@@ -19,8 +19,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <meta name="description" content={metadata.description ?? ""} />
+      <meta
+        name="keywords"
+        content="desarrollo web, diseño web, páginas web, landing page, SEO, sitios responsivos, desarrollo de software, paginas web personalizadas"
+      />
+      <meta name="author" content="Felipe Fontana" />
+      <meta
+        property="og:title"
+        content="Felipe Fontana | Desarrollo Web Profesional"
+      />
+      <meta property="og:description" content={metadata.description ?? ""} />
+      <meta property="og:image" content="ruta-a-tu-imagen.jpg" />
+      <meta property="og:url" content="https://tusitio.com" />
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:title"
+        content="Felipe Fontana | Desarrollo Web Profesional"
+      />
+      <meta name="twitter:description" content={metadata.description ?? ""} />
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <link rel="icon" href="/logo.png" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
