@@ -76,6 +76,12 @@
   button {
     @apply active:outline-none;
   }
+  .font-outline {
+    text-shadow: -2px 0px 0px #1f1f1f;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px black;
+  }
 }
 
 @layer utilities {

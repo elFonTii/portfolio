@@ -1,44 +1,46 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Sobre mí", link: "#about" },
+  { name: "Proyectos", link: "#projects" },
+  { name: "Misión", link: "#testimonials" },
+  { name: "Contacto", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      '"Enfocado en el detalle y en generar una experiencia única para el cliente final."',
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
+    imgClassName: "hidden md:block md:w-[425px] p-4",
     titleClassName: "justify-end",
     img: "/b1.svg",
-    spareImg: "",
+    spareImg: "/grid.svg",
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title:
+      '"Un apasionado programador que transforma café en código limpio y soluciones creativas. 🚀"',
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
+    imgClassName: "w-[250px] h-[250px] opacity-15",
     titleClassName: "justify-start",
-    img: "",
+    img: "/b2.svg",
     spareImg: "",
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Tecnologías",
+    description: "Uso estas",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
-    spareImg: "",
+    spareImg: "/grid.svg",
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Entusiasta de la tecnología con pasión por crear.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +51,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Actualmente construyendo una APP para Delivery's",
+    description: "Mi interna",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +61,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "¿Listo para impulsar tus proyectos al siguiente nivel?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,101 +74,95 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Mobile e-banking app",
+    des: "Aplicación de banca de Winterbotham para iOS y Android en React Native",
+    img: "/p1.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    url: "www.winterbotham.com/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "MiniPay - Aplicación e-wallet",
+    des: "Pagos más rápidos y seguros, una billetera electrónica en la web.",
+    img: "/p2.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    url: "/",
   },
   {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    id: 2,
+    title: "Reizen - Muebles de hogar",
+    des: "Proyecto académico de e-commerce en React",
+    img: "/p3.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    url: "www.reizen.vercel.app/",
   },
   {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    id: 2,
+    title: "Hackflix - Cartelera de peliculas",
+    des: "Aplicación cartelera de peliculas en React y CSS.",
+    img: "/p4.png",
+    iconLists: ["/re.svg", "/ts.svg", "/css.svg"],
+    url: "www.hackflix-app.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Felipe ha sido una increíble adhesión al equipo de Magenta Innova. Su energía y ganas de mejorar contagian al equipo.  Su talento y ambición van de la mano. En el tiempo que ha pasado con nosotros se ha preocupado por mejorar como compañero, desarrollador y empleado día a día.",
+    name: "Lucía Maciel",
+    title: "Lic. en Recursos Humanos / RRHH en Magenta Innova",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Felipe ha sido una increíble adhesión al equipo de Magenta Innova. Su energía y ganas de mejorar contagian al equipo.  Su talento y ambición van de la mano. En el tiempo que ha pasado con nosotros se ha preocupado por mejorar como compañero, desarrollador y empleado día a día.",
+    name: "Lucía Maciel",
+    title: "Lic. en Recursos Humanos / RRHH en Magenta Innova",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Felipe ha sido una increíble adhesión al equipo de Magenta Innova. Su energía y ganas de mejorar contagian al equipo.  Su talento y ambición van de la mano. En el tiempo que ha pasado con nosotros se ha preocupado por mejorar como compañero, desarrollador y empleado día a día.",
+    name: "Lucía Maciel",
+    title: "Lic. en Recursos Humanos / RRHH en Magenta Innova",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Supabase",
+    img: "",
+    nameImg: "/supabase.svg",
   },
   {
     id: 2,
-    name: "appwrite",
+    name: "Next.js",
     img: "/app.svg",
-    nameImg: "/appName.svg",
+    nameImg: "/nextjs.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
+    name: "Hostinger",
+    img: "",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Bitbucket",
+    img: "",
+    nameImg: "/bitbucket.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Expo",
+    img: "",
+    nameImg: "/expo.svg",
+  },
+  {
+    id: 6,
+    name: "Jira.",
+    img: "",
+    nameImg: "/jira.svg",
   },
 ];
 

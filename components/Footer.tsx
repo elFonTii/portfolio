@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaWhatsapp } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
@@ -17,24 +17,30 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          ¿Listo para llegar al{" "}
+          <span className="text-yellow-500">siguiente</span> nivel?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          Escríbeme hoy y descubramos juntos cómo puedo ayudarte a llevar tu
+          idea al mundo digital con una página web a la medida de tus
+          necesidades.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a
+          href="https://wa.me/59892617302?text=¡Hola!%20quiero%20crear%20una%20página%20web,%20¿Como%20podríamos%20empezar?%20"
+          target="_blank"
+        >
           <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
+            title="WhatsApp"
+            icon={<FaWhatsapp />}
             position="right"
           />
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Adrian Hajdin
+          <a href="https://storyset.com/software">
+            Software illustrations by Storyset
+          </a>
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">

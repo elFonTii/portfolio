@@ -7,8 +7,9 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Adrian's Portfolio",
-  description: "Modern & Minimal JS Mastery Portfolio",
+  title: "Felipe Fontana | Portfolio",
+  description:
+    "Desarrollador full-stack especializado en crear aplicaciones web y móviles intuitivas y eficientes. Experiencia en React, Next.js, Node.js y soluciones centradas en el usuario. Explora mi portafolio para ver proyectos de e-banking, IoT y más.",
 };
 
 export default function RootLayout({

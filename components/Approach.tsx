@@ -7,57 +7,65 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Enfoque <span className="text-yellow-500">de trabajo</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="Planeamiento y Dirección"
+          icon={<AceternityIcon order="Fase 1" />}
+          des="Trabajaremos juntos para establecer las bases sólidas de tu proyecto de software. Definiremos en detalle los objetivos principales, identificaremos al público objetivo y determinaremos las funcionalidades esenciales. Nos enfocaremos en diseñar la estructura del sistema, planificar la navegación y organizar los requerimientos técnicos. También evaluaremos las prioridades del proyecto y trazaremos un roadmap claro que guiará todo el proceso de desarrollo."
         >
           <CanvasRevealEffect
-            animationSpeed={5.1}
+            animationSpeed={4}
             // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
-            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-red-400 rounded-3xl overflow-hidden"
+            dotSize={5}
+            colors={[
+              [228, 0, 58],
+              [140, 0, 0],
+              [255, 0, 92],
+              [124, 32, 58],
+            ]}
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="Diseño y Desarrollo"
+          icon={<AceternityIcon order="Fase 2" />}
+          des="Me enfocaré en llevar a cabo el desarrollo técnico del proyecto mientras aseguramos un seguimiento continuo de su progreso. Aquí se implementarán las funcionalidades definidas, ajustando la estructura del sistema y optimizando la experiencia del usuario. Además, tendrás actualizaciones regulares para mantenerte informado sobre los avances, resolviendo cualquier desafío y garantizando que el desarrollo se alinee con los objetivos y el roadmap establecidos."
         >
           <CanvasRevealEffect
-            animationSpeed={3}
+            animationSpeed={5}
             // change bg-black to bg-pink-900
-            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-red-400 rounded-3xl overflow-hidden"
+            dotSize={4}
             colors={[
-              // change the colors of the
-              [255, 166, 158],
-              [221, 255, 247],
+              [228, 0, 58],
+              [140, 0, 0],
+              [255, 0, 92],
+              [124, 32, 58],
             ]}
-            dotSize={2}
           />
           {/* Radial gradient for the cute fade */}
           {/* remove this one */}
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="Desarrollo y Despliegue"
+          icon={<AceternityIcon order="Fase 3" />}
+          des="Me centraré en materializar tu proyecto mediante la implementación de las funcionalidades definidas y la construcción de una solución robusta. Durante esta fase, optimizaremos la estructura del sistema, afinaremos la experiencia del usuario y llevaremos a cabo pruebas exhaustivas para garantizar su calidad. Finalmente, gestionaremos el despliegue del software, asegurando una transición fluida hacia el entorno de producción y un funcionamiento impecable desde el primer día."
         >
           <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
-            colors={[[125, 211, 252]]}
+            animationSpeed={5}
+            containerClassName="bg-red-400 rounded-3xl overflow-hidden"
+            dotSize={4}
+            colors={[
+              [228, 0, 58],
+              [140, 0, 0],
+              [255, 0, 92],
+              [124, 32, 58],
+            ]}
           />
         </Card>
       </div>
@@ -90,7 +98,7 @@ const Card = ({
       style={{
         //   add these two
         //   you can generate the color from here https://cssgradient.io/
-        background: "rgb(4,7,29)",
+        background: "rgba(0,0,0,0.2)",
         backgroundColor:
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
@@ -151,14 +159,14 @@ const AceternityIcon = ({ order }: { order: string }) => {
       {/* change rounded-lg, text-purple px-5 py-2 */}
       {/* remove focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 cuz we don't need to focus */}
       {/* remove text-sm font-medium h-12 , add font-bold text-2xl */}
-      <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
+      <button className="relative inline-flex overflow-hidden rounded-md p-[1px] ">
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
-         bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+         bg-[conic-gradient(from_90deg_at_50%_50%,#FFF_0%,#ff0000_50%,#9f0000_100%)]"
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
-        justify-center rounded-full bg-slate-950 px-5 py-2 text-purple backdrop-blur-3xl font-bold text-2xl"
+        justify-center rounded-md bg-red-900 px-5 py-2 text-white backdrop-blur-3xl font-bold text-2xl"
         >
           {order}
         </span>
