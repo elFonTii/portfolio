@@ -22,7 +22,7 @@ export default function RootLayout({
       <meta name="description" content={metadata.description ?? ""} />
       <meta
         name="keywords"
-        content="desarrollo web, diseño web, páginas web, landing page, SEO, sitios responsivos, desarrollo de software, paginas web personalizadas"
+        content="desarrollo web, diseño web, páginas web, landing page, SEO, sitios responsivos, desarrollo de software, paginas web personalizadas, felipe, felipe fontana, fontana felipe, fontana, botta, developer, dev, uruguayo, mobile, react, react native"
       />
       <meta name="author" content="Felipe Fontana" />
       <meta
@@ -30,10 +30,9 @@ export default function RootLayout({
         content="Felipe Fontana | Desarrollo Web Profesional"
       />
       <meta property="og:description" content={metadata.description ?? ""} />
-      <meta property="og:image" content="ruta-a-tu-imagen.jpg" />
-      <meta property="og:url" content="https://tusitio.com" />
+      <meta property="og:image" content="logo.png" />
+      <meta property="og:url" content="https://ffontana.dev" />
       <meta property="og:type" content="website" />
-      <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="twitter:title"
         content="Felipe Fontana | Desarrollo Web Profesional"
