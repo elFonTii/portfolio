@@ -7,7 +7,6 @@ import Lottie from "react-lottie";
 import { cn } from "@/lib/utils";
 
 import { BackgroundGradientAnimation } from "./GradientBg";
-import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
 
@@ -182,7 +181,7 @@ export const BentoGridItem = ({
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
-                otherClasses="!bg-[#FABC3F]"
+                otherClasses="bg-white text-red-500"
               />
             </div>
           )}
