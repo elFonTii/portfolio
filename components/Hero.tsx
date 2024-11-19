@@ -68,6 +68,7 @@ const Hero = () => {
               title="Ver proyectos"
               icon={<FaCrosshairs />}
               position="right"
+              otherClasses="bg-white text-red-500"
             />
           </a>
         </div>

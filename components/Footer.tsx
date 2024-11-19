@@ -33,6 +33,7 @@ const Footer = () => {
             title="WhatsApp"
             icon={<FaWhatsapp />}
             position="right"
+            otherClasses="bg-white text-red-500"
           />
         </a>
       </div>
